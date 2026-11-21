@@ -1,0 +1,7 @@
+{
+  "version": "pre-Alpha v0.9.8.2",
+  "title": "RoboComp Robotik & 3D Mühendislik Sürümü",
+  "notes": "2m x 2m 3D uzay alanı, gerçek 1:1 cm ölçekli Arduino/ESP32 modelleri, STL içe/dışa aktarma, Ters Kinematik (IK), 3D Cetvel ve Güç Monitörü.",
+  "file": "index.html",
+  "publishedAt": "2026-11-21T15:25:00+03:00"
+}
