@@ -1,16 +1,25 @@
-# RoboComp — GitHub Pages Otomatik Güncelleme & Dağıtım Paketi
+# RoboComp
 
-Bu paket, **RoboComp (`pre-Alpha v0.9.8.2`)** uygulamasını ücretsiz olarak **GitHub Pages** üzerinden yayınlamanız ve gelecekte yapacağımız tüm güncellemeleri kullanıcılara **link göndermeden, otomatik bildirim + tek tıkla otomatik indirme/güncelleme** şeklinde dağıtmanız için hazırlanmıştır.
+## TR
 
-## 1. İlk Kurulum (2 Dakika — Tek Seferlik)
-1. GitHub hesabınızda `robocomp` adında **Public** bir yeni depo (Repository) oluşturun.
-2. Bu ZIP içindeki 4 dosyayı (`index.html`, `version.json`, `manifest.json`, `sw.js`) doğrudan deponun ana dizinine yükleyin (**Add file → Upload files → Commit changes**).
-3. Deponun **Settings → Pages** menüsüne girin, **Branch** kısmından `main` / `/ (root)` seçip **Save** butonuna basın.
-4. Yaklaşık 1 dakika içinde uygulamanız `https://KULLANICI_ADINIZ.github.io/robocomp/` adresinde yayına alınacaktır.
-5. Kullanıcılar bu adresi Chrome veya Edge ile bir kez açıp sağ üstten **"Uygulama Olarak Yükle"** dediklerinde bilgisayar/telefonlarına masaüstü uygulaması olarak kurulur.
+**RoboComp** uygulaması; **Arduino**, **ESP32** gibi çok bilinen mikrodenetleyicileri, sensörleri ve çeşitli motorları, bu ürünleri satın almadan projelerinizde kullanabileceğiniz bir uzay-proje alanı uygulamasıdır.
 
-## 2. Yeni Güncelleme Nasıl Yayınlanır? (Otomatik Bildirim)
-İleride birlikte yeni bir sürüm (örneğin `pre-Alpha v0.9.8.3`) hazırladığımızda:
-1. Sadece yeni `index.html` dosyasını ve içindeki `"version"` alanını güncellediğiniz `version.json` dosyasını GitHub deponuza yükleyin.
-2. Uygulamaya sahip tüm kullanıcılar RoboComp'u çevrim içi açtığında arka planda `version.json` sessizce kontrol edilir.
-3. Kullanıcılara hiçbir link gösterilmeden **"Yeni Güncelleme Hazır — Şimdi Güncelle"** bildirimi çıkar; onayladıklarında uygulama önbelleği temizlenip yeni sürüm otomatik olarak yüklenir.
+Dilerseniz projenize sıfırdan başlayıp her şeyini uygulama içinde geliştirebilir veya zaten bir projeniz varsa sadece fotoğrafını yükleyerek bunu uzay ortamına getirebilirsiniz.
+
+Ayrıca robotik projeleriniz için dilediğiniz uzunlukta, genişlikte ve kalınlıkta şasi, kolon ve bağlar yaratıp bunları projenize ve devrenize entegre edebilirsiniz.
+
+Ayrıca 3D yazıcılar için ürettiğiniz parçaları uygulama içinde projenize ekleyebilir veya uygulama içinde ürettiğiniz 3D parçaları 3D yazıcınıza gönderip projelerinizi gerçek hayata geçirebilirsiniz.
+
+Ve son olarak projelerinizi `.json` formatında bilgisayarınıza kaydedebilir, arkadaşınıza veya öğretmeninize yollayabilir; yine arkadaşınızdan veya öğretmeninizden aldığınız `.json` formatındaki projelerinizi uygulamada açabilirsiniz.
+
+## ENG
+
+**RoboComp** is a space-project design application that allows you to use well-known microcontrollers such as **Arduino** and **ESP32**, along with sensors and various types of motors, in your projects without having to purchase these components.
+
+You can either start your project from scratch and develop every aspect of it within the application, or, if you already have an existing project, simply upload a photo of it to bring it into the virtual space environment.
+
+Additionally, you can create chassis, columns, and connectors of any desired length, width, and thickness for your robotics projects, and integrate them into your designs and circuits.
+
+You can also add parts designed for 3D printers directly to your projects within the application. Alternatively, you can create your own 3D components inside the application and send them to your 3D printer, bringing your projects to life in the real world.
+
+Finally, you can save your projects to your computer in `.json` format and share them with your friends or teachers. Likewise, you can open `.json` project files received from your friends or teachers directly within the application.
